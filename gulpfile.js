@@ -67,8 +67,8 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('icons', function () {
-  return gulp.src("src/icons/**/*")
-    .pipe(gulp.dest('dist/icons'));
+  return gulp.src("src/img/icons/**/*")
+    .pipe(gulp.dest('dist/img/icons'));
 });
 
 gulp.task('mailer', function () {

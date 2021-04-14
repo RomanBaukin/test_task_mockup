@@ -40,10 +40,12 @@
 
 body {
   font-family: 'ALSHauss-Book', sans-serif;
+  background-color: $main-color;
+  color: $fonts-main-color;
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1571px;
   margin: 0 auto;
 }
 

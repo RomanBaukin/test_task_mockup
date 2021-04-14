@@ -2,13 +2,11 @@ extends common/layout
 
 block content
   main.main
-    h2 Title
-    include includes/index/banner
-    hr
-    p paragraph
-    img(src="img/forest.jpg")
-    ul.items
-      li.items__t
-      li.items__t
-      li.items1__t
-    //- и другие блоки
+    section.description
+      .container 
+        include includes/index/description
+    section.about
+      .container 
+        include includes/index/about
+        
+      
