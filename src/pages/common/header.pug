@@ -3,13 +3,18 @@ header.header
     nav.navbar
       a.logo.navbar__logo(href='#')
         img(src='img/logo.png' alt='Логотип компании')
-      ul.navbar__menu
-        li.navbar__item
+      .navbar__menu
+        .navbar__item
           a.link.navbar__link(href='#') Курсы
-        li.navbar__item
+        .navbar__item
           a.link.navbar__link(href='#') Наймите выпускника
-        li.navbar__item
+        .navbar__item
           a.link.navbar__link(href='#') Личный кабинет
+        button.close-button &times;
+      button.menu-button 
+        span.menu-button__line
+        span.menu-button__line
+        span.menu-button__line
     .header__main
       h1.title.header__title школа
         br 

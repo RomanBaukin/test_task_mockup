@@ -220,7 +220,35 @@
 
     &__menu {
       display: none;
+      position: fixed;
+      top: 10px;
+      left: 20px;
+      right: 20px;
+      height: 200px;
+      bottom: 0;
+      z-index: 100;
+      padding: 36px 24px;
+      flex-direction: column;
+      align-items: center;
+      background-color: $fonts-main-color
     }
+
+    &__item {
+      margin-left: 0;
+      margin-bottom: 25px;
+
+      a {
+        color: $main-color;
+      }
+    }
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  .close-button {
+    display: block;
   }
 
   .video {
